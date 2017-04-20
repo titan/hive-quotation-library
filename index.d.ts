@@ -7,6 +7,7 @@ export interface QuotationItemPair {
     amount: number;
     unit: string;
     type: number;
+    real_price: number;
 }
 export interface QuotationItem {
     id: string;
