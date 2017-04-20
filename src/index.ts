@@ -35,4 +35,6 @@ export interface Quotation {
   promotion:          number;
   insure:             number;
   auto:               number;
+  created_at:         Date;
+  updated_at:         Date;
 };
