@@ -4,11 +4,10 @@ import { Vehicle } from "vehicle-library";
 
 export interface QuotationItemPair {
   price:      number;
-  real:       number;
+  real_price: number;
   amount:     number;
   unit:       string;
   type:       number;
-  real_price: number;
 }
 
 export interface QuotationItem {
