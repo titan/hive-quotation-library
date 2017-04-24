@@ -33,6 +33,7 @@ export interface Quotation {
   price:              number;
   real_value:         number;
   promotion:          number;
+  discount:           number;
   insure:             number;
   auto:               number;
   created_at:         Date;
