@@ -21,12 +21,12 @@ export interface Quotation {
     vehicle: Vehicle;
     owner: Person;
     insured: Person;
-    recommend: string;
-    inviter: string;
-    outside_quotation1: number;
-    outside_quotation2: number;
-    screenshot1: string;
-    screenshot2: string;
+    recommend?: string;
+    inviter?: string;
+    outside_quotation1?: number;
+    outside_quotation2?: number;
+    screenshot1?: string;
+    screenshot2?: string;
     price: number;
     real_value: number;
     promotion: number;
@@ -35,4 +35,7 @@ export interface Quotation {
     auto: number;
     created_at: Date;
     updated_at: Date;
+    driving_view?: string;
+    driving_view_verified?: boolean;
+    driving_view_refused_reason?: string;
 }
