@@ -39,6 +39,6 @@ export interface Quotation {
   created_at:                   Date;
   updated_at:                   Date;
   driving_view?:                string;
-  driving_view_verified?:       boolean;
+  driving_view_verify_state?:   number;
   driving_view_refused_reason?: string;
 };
